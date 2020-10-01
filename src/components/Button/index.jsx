@@ -38,7 +38,7 @@ function Button({
 
   const checkButtonColor = COLORS.includes(buttonColor)
     ? buttonColor
-    : COLORS[0];
+    : null;
 
   return (
     <button 
