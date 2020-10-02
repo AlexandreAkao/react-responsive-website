@@ -6,7 +6,7 @@ import {
   homeObjTwo,
   homeObjThree,
   homeObjFour
-} from './Data';
+} from '../../Data';
 
 function Home() {
   return (

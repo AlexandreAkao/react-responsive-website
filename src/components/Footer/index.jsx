@@ -5,7 +5,8 @@ import {
   FaInstagram,
   FaYoutube,
   FaTwitter,
-  FaLinkedin
+  FaLinkedin,
+  FaGithub
 } from 'react-icons/fa';
 import { MdFingerprint } from 'react-icons/md';
 
@@ -63,10 +64,8 @@ function Footer() {
           </div>
           <div className='footer-link-items'>
             <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
-            <Link to='/'>Youtube</Link>
-            <Link to='/'>Twitter</Link>
+            <Link to='//github.com/AlexandreAkao'>Github</Link>
+            <Link to='//www.linkedin.com/in/alexandre-akao-aa6270163'>LinkedIn</Link>
           </div>
         </div>
       </div>
@@ -82,41 +81,15 @@ function Footer() {
           <div className='social-icons'>
             <Link
               className='social-icon-link'
-              to='/'
+              to='//github.com/AlexandreAkao'
               target='_blank'
-              aria-label='Facebook'
+              aria-label='Github'
             >
-              <FaFacebook />
+              <FaGithub />
             </Link>
             <Link
               className='social-icon-link'
-              to='/'
-              target='_blank'
-              aria-label='Instagram'
-            >
-              <FaInstagram />
-            </Link>
-            <Link
-              className='social-icon-link'
-              to={
-                '//www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber'
-              }
-              target='_blank'
-              aria-label='Youtube'
-            >
-              <FaYoutube />
-            </Link>
-            <Link
-              className='social-icon-link'
-              to='/'
-              target='_blank'
-              aria-label='Twitter'
-            >
-              <FaTwitter />
-            </Link>
-            <Link
-              className='social-icon-link'
-              to='/'
+              to='//www.linkedin.com/in/alexandre-akao-aa6270163'
               target='_blank'
               aria-label='LinkedIn'
             >
