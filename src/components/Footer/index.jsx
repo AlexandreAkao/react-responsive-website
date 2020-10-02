@@ -64,8 +64,20 @@ function Footer() {
           </div>
           <div className='footer-link-items'>
             <h2>Social Media</h2>
-            <Link to='//github.com/AlexandreAkao'>Github</Link>
-            <Link to='//www.linkedin.com/in/alexandre-akao-aa6270163'>LinkedIn</Link>
+            <Link 
+              to='//github.com/AlexandreAkao'
+              target='_blank'
+              aria-label='LinkedIn'
+            >
+              Github
+            </Link>
+            <Link 
+              to='//www.linkedin.com/in/alexandre-akao-aa6270163'
+              target='_blank'
+              aria-label='LinkedIn'
+            >
+              LinkedIn
+            </Link>
           </div>
         </div>
       </div>
